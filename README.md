@@ -1,5 +1,8 @@
 # MillionFrontEnd
 
+---
+
+```bash
 # Clonar el repositorio
 git clone https://github.com/erneyjonathan23/MillionFrontEnd.git
 
