@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2022": true, "jest": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/recommended",
+    "prettier"
+  ],
+  "parserOptions": { "ecmaFeatures": { "jsx": true }, "sourceType": "module" },
+  "settings": { "react": { "version": "detect" } },
+  "rules": {
+    "react/prop-types": "off", 
+    "import/order": ["error", { "alphabetize": { "order": "asc" }, "newlines-between": "always" }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }]
+  },
+  "ignorePatterns": ["build", "node_modules"]
+}
